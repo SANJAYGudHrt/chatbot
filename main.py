@@ -18,7 +18,7 @@ def chat_with_gpt(input_topic):
     corrected_topic = correct_spelling(input_topic)
 
     # Make API call to ChatGPT
-    api_key = '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'
+    api_key = 'Your_api_key'
     openai.api_key = api_key
 
     try:
